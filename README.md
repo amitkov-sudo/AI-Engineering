@@ -6,7 +6,7 @@ At the moment, the snapshot contains the exercise notebooks; the `Notes/` and `P
 
 ## Repository Structure
 
-- `Notes/` — conceptual summaries and reference snippets (currently empty in this snapshot)
+- `Notes/` — conceptual summaries and reference snippets (active in this snapshot)
 - `Exercises/` — Notebook exercises (active in this snapshot)
 - `Projects/` — larger capstone-style work (currently empty in this snapshot)
 
