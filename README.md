@@ -19,11 +19,11 @@ The `Exercises/` folder currently includes PyTorch notebooks such as:
 - **`benchmarking_exercise_1.ipynb`** — MLP setup; model size (parameters + buffers); forward-pass latency across batch sizes.
 - **`mlps_exercise_2.ipynb`** — Binary classification with an MLP on tabular booking data; training loop with BCE-with-logits loss and Adam.
 
-Paths and dependencies inside notebooks (e.g. `datasets/bookings_train.csv`, optional `custom_torchinfo` for model summaries) match whatever environment you run in; adjust paths or swap helpers (e.g. `torchinfo.summary`) when working locally.
+Paths and dependencies inside notebooks (e.g. `datasets/bookings_train.csv`, optional `custom_torchinfo` for model summaries) match whatever environment you run in; adjust paths or swap helpers (e.g. `torchinfo.summary`) when working locally. Currently datasets are not provided in this directory.
 
 ## Local setup
 
-Typical stack for the notebooks above:
+Needed stack for the notebooks above:
 
 - Python 3.9+
 - Jupyter (`jupyter lab` or `jupyter notebook`)
@@ -31,6 +31,4 @@ Typical stack for the notebooks above:
 
 Create a virtual environment, install what each notebook imports, and place any expected data files where the notebook points (or update the paths).
 
-## License & third-party material
 
-Learning resources, datasets, and platform-specific assets may be subject to their own terms. Use and redistribute them only in line with those licenses.
